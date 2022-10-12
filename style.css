@@ -1,5 +1,80 @@
-body {
-    margin: 48px;
-    font-size: 16px;
-    font-family: sans-serif;
-}
+.author{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 20px;
+    line-height: 15px;
+    line-height: 77%;
+        font-weight: 900;
+    
+    
+    }
+    
+    
+    .FUCK{
+        font-family: 'Montserrat', sans-serif;
+    
+    font-size: 200px;
+    line-height: 15px;
+    line-height: 77%;
+        font-weight: 900;
+    
+    }
+    
+    .p{font-family: 'Montserrat', sans-serif;
+        
+    }
+    
+    
+    :root {
+        --body-copy: 16px;
+        --page-spacing: 24px;
+      
+        --main-heading: calc(var(--body-copy) * 3);
+        --sub-heading: calc(var(--body-copy) * 1.5);
+      }
+      
+      @media (min-width: 768px) {
+        :root {
+          --body-copy: 20px;
+          --page-spacing: 48px;
+      
+          --main-heading: calc(var(--body-copy) * 4);
+          --sub-heading: calc(var(--body-copy) * 2);  
+        }
+      }
+      
+      
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: var(--body-copy);
+      }
+      
+      body > * {
+        padding: var(--page-spacing);
+      }
+      
+      h1 {
+        font-size: var(--main-heading);
+      }
+      
+      h2 {
+        font-size: var(--sub-heading);
+      }
+      
+      header,
+      footer {
+        background-color: gold;
+      }
+      
+      header {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--page-spacing) * 2);
+      }
+      
+      @media (min-width: 768px) {
+        header {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }

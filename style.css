@@ -1,80 +1,144 @@
 .author{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size: 20px;
+  line-height: 15px;
+  line-height: 77%;
+      font-weight: 900;
+  
+  
+  }
+  
+  
+  .FUCK{
+      font-family: 'Montserrat', sans-serif;
+  
+  font-size: 200px;
+  line-height: 15px;
+  line-height: 77%;
+      font-weight: 900;
+  
+  }
+  .box1 {
+    background-color: #9EFF86;
+     
+          position: absolute;
+      margin-left:50%;
+      margin-top:-150px;
+  
+    width: 380px;
+      height: 516px;
+  /*    float: right;*/
+      blend-mode: multiply;
+  
     
-    font-size: 20px;
-    line-height: 15px;
-    line-height: 77%;
-        font-weight: 900;
+      
+  }
+  .read
+  {font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 27px;
+  /*
+      display: flex;
+    flex-wrap: wrap;
+  */
+  /*	height: 160px;*/
+      max-width: 50%;
+      margin-left: 7%;
+      margin-bottom: 20px;
+       position: relative;
+      
+       
+  }
+  
+  .display1{font-family: 'Montserrat', sans-serif;
+      font-size: 100px;
+      line-height: 100px;
+      font-weight: 800;
+      padding-top:150px;
+      padding-bottom:150px;
+      position: relative;
     
+     
+      
     
+      max-width: 55%;
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      
+        margin: auto;
+      
+      
+  /*    WEBKIT CREDIT
+      https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+      
+      
+  }
+  
+  
+  div:nth-child(2) aside {
+    float: right;
+    margin-left: 10px;
+    margin-right: initial;
+  }
+  
+  p:last-child {
+    clear: left;
+  }
+  
+  
+  
+  :root {
+      --body-copy: 16px;
+      --page-spacing: 24px;
+    
+      --main-heading: calc(var(--body-copy) * 3);
+      --sub-heading: calc(var(--body-copy) * 1.5);
+    }
+    
+    @media (min-width: 768px) {
+      :root {
+        --body-copy: 20px;
+        --page-spacing: 48px;
+    
+        --main-heading: calc(var(--body-copy) * 4);
+        --sub-heading: calc(var(--body-copy) * 2);  
+      }
     }
     
     
-    .FUCK{
-        font-family: 'Montserrat', sans-serif;
-    
-    font-size: 200px;
-    line-height: 15px;
-    line-height: 77%;
-        font-weight: 900;
-    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: var(--body-copy);
     }
     
-    .p{font-family: 'Montserrat', sans-serif;
-        
+    body > * {
+      padding: var(--page-spacing);
     }
     
+    h1 {
+      font-size: var(--main-heading);
+    }
     
-    :root {
-        --body-copy: 16px;
-        --page-spacing: 24px;
-      
-        --main-heading: calc(var(--body-copy) * 3);
-        --sub-heading: calc(var(--body-copy) * 1.5);
-      }
-      
-      @media (min-width: 768px) {
-        :root {
-          --body-copy: 20px;
-          --page-spacing: 48px;
-      
-          --main-heading: calc(var(--body-copy) * 4);
-          --sub-heading: calc(var(--body-copy) * 2);  
-        }
-      }
-      
-      
-      body {
-        font-family: 'Montserrat', sans-serif;
-        font-size: var(--body-copy);
-      }
-      
-      body > * {
-        padding: var(--page-spacing);
-      }
-      
-      h1 {
-        font-size: var(--main-heading);
-      }
-      
-      h2 {
-        font-size: var(--sub-heading);
-      }
-      
-      header,
-      footer {
-        background-color: gold;
-      }
-      
+    h2 {
+      font-size: var(--sub-heading);
+    }
+    
+    header,
+    footer {
+      background-color: gold;
+    }
+    
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: calc(var(--page-spacing) * 2);
+    }
+    
+    @media (min-width: 768px) {
       header {
-        display: flex;
-        flex-direction: column;
-        gap: calc(var(--page-spacing) * 2);
+        flex-direction: row;
+        justify-content: space-between;
       }
-      
-      @media (min-width: 768px) {
-        header {
-          flex-direction: row;
-          justify-content: space-between;
-        }
-      }
+    }

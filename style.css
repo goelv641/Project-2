@@ -1,144 +1,352 @@
-.author{
-  font-family: 'Montserrat', sans-serif;
-  
-  font-size: 20px;
-  line-height: 15px;
-  line-height: 77%;
-      font-weight: 900;
-  
-  
-  }
-  
-  
-  .FUCK{
-      font-family: 'Montserrat', sans-serif;
-  
-  font-size: 200px;
-  line-height: 15px;
-  line-height: 77%;
-      font-weight: 900;
-  
-  }
-  .box1 {
+..body {
     background-color: #9EFF86;
-     
-          position: absolute;
-      margin-left:50%;
-      margin-top:-150px;
-  
+}
+
+
+.author {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+    line-height: 15px;
+    line-height: 77%;
+    font-weight: 900;
+
+
+}
+
+
+.FUCK {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 200px;
+    line-height: 15px;
+    line-height: 77%;
+    font-weight: 900;
+
+}
+
+.box1 {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -150px;
+
     width: 380px;
-      height: 516px;
-  /*    float: right;*/
-      blend-mode: multiply;
-  
-    
-      
-  }
-  .read
-  {font-family: 'Montserrat', sans-serif;
-      font-size: 18px;
-      line-height: 27px;
-  /*
-      display: flex;
-    flex-wrap: wrap;
-  */
-  /*	height: 160px;*/
-      max-width: 50%;
-      margin-left: 7%;
-      margin-bottom: 20px;
-       position: relative;
-      
-       
-  }
-  
-  .display1{font-family: 'Montserrat', sans-serif;
-      font-size: 100px;
-      line-height: 100px;
-      font-weight: 800;
-      padding-top:150px;
-      padding-bottom:150px;
-      position: relative;
-    
-     
-      
-    
-      max-width: 55%;
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-      
-        margin: auto;
-      
-      
-  /*    WEBKIT CREDIT
-      https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
-      
-      
-  }
-  
-  
-  div:nth-child(2) aside {
+    height: 516px;
+    /*    float: right;*/
+    blend-mode: multiply;
+
+
+
+}
+
+
+
+.box3 {
+
+    background-color: #FAF7F0;
+    border-color: #9EFF86;
+    border: 25px;
+    outline: 14px solid #9EFF86;
+
+
+
+
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 50px;
+
+    width: 30%;
+    height: 516px;
+    /*    float: right;*/
+
+}
+
+
+
+
+.box4 {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -50px;
+
+    width: 380px;
+    height: 516px;
+    /*    float: right;*/
+   
+
+
+
+
+}
+
+.line {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-left: 10%;
+
+
+    width: 5px;
+    height: 1262px;
+    /*    float: right;*/
+
+}
+
+.lineh {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-top: 500px;
+
+    width: 1000px;
+    height: 5px;
+    /*    float: right;*/
+
+}
+
+.lineh2 {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-top: 650px;
+
+    width: 1000px;
+    height: 5px;
+    /*    float: right;*/
+
+}
+
+.lineh3 {
+    background-color: #9EFF86;
+
+    position: absolute;
+    margin-top: 550px;
+
+    width: 1000px;
+    height: 5px;
+    /*    float: right;*/
+
+}
+
+
+.read {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 50%;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+
+.readtwo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 30%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+
+.readthree {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 35%;
+    margin-left: 30%;
+    margin-bottom: 60px;
+    position: relative;
+
+
+}
+
+.readleft {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 30%;
+    margin-left: 60%;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+
+.display1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 800;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+
+
+
+
+    max-width: 55%;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    margin: auto;
+
+
+    /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+
+}
+
+
+.display2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 800;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+
+
+
+
+    max-width: 70%;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    margin-left: 5%;
+
+
+    /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+
+}
+
+
+.display3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 800;
+    padding-top: 500px;
+    /* padding-bottom:150px;*/
+    position: absolute;
+    transform: rotate(90deg);
+
+
+
+
+    max-width: 70%;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9EFF86;
+
+    margin-left: 60%;
+
+
+    /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+
+}
+
+
+div:nth-child(2) aside {
     float: right;
     margin-left: 10px;
     margin-right: initial;
-  }
-  
-  p:last-child {
+}
+
+p:last-child {
     clear: left;
-  }
-  
-  
-  
-  :root {
-      --body-copy: 16px;
-      --page-spacing: 24px;
-    
-      --main-heading: calc(var(--body-copy) * 3);
-      --sub-heading: calc(var(--body-copy) * 1.5);
-    }
-    
-    @media (min-width: 768px) {
-      :root {
+}
+
+
+
+:root {
+    --body-copy: 16px;
+    --page-spacing: 24px;
+
+    --main-heading: calc(var(--body-copy) * 3);
+    --sub-heading: calc(var(--body-copy) * 1.5);
+}
+
+@media (min-width: 768px) {
+    :root {
         --body-copy: 20px;
         --page-spacing: 48px;
-    
+
         --main-heading: calc(var(--body-copy) * 4);
-        --sub-heading: calc(var(--body-copy) * 2);  
-      }
+        --sub-heading: calc(var(--body-copy) * 2);
     }
-    
-    
-    body {
-      font-family: 'Montserrat', sans-serif;
-      font-size: var(--body-copy);
-    }
-    
-    body > * {
-      padding: var(--page-spacing);
-    }
-    
-    h1 {
-      font-size: var(--main-heading);
-    }
-    
-    h2 {
-      font-size: var(--sub-heading);
-    }
-    
-    header,
-    footer {
-      background-color: gold;
-    }
-    
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--body-copy);
+    background-color: #FAF7F0;
+}
+
+body > * {
+    padding: var(--page-spacing);
+}
+
+h1 {
+    font-size: var(--main-heading);
+}
+
+h2 {
+    font-size: var(--sub-heading);
+}
+
+/* header,
+  footer {
+    background-color: gold;
+  }
+  */
+header {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--page-spacing) * 2);
+}
+
+@media (min-width: 768px) {
     header {
-      display: flex;
-      flex-direction: column;
-      gap: calc(var(--page-spacing) * 2);
-    }
-    
-    @media (min-width: 768px) {
-      header {
         flex-direction: row;
         justify-content: space-between;
-      }
     }
+}

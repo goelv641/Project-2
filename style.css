@@ -217,22 +217,6 @@
 
 }
 
-.readthree {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 27px;
-    /*
-    display: flex;
-	flex-wrap: wrap;
-*/
-    /*	height: 160px;*/
-    max-width: 35%;
-    margin-left: 30%;
-    margin-bottom: 60px;
-    position: relative;
-
-
-}
 
 .readleft {
 
@@ -267,6 +251,23 @@
     margin-bottom: 90px;
     margin-bottom: 90px;
     padding-top: 400px;
+    position: relative;
+
+
+}
+
+.readthree {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 50%;
+    margin-left: 30%;
+    margin-bottom: 60px;
     position: relative;
 
 
@@ -482,8 +483,8 @@
 	flex-wrap: wrap;
 */
     /*	height: 160px;*/
-    max-width: 40%;
-    margin-left: 50%;
+    max-width: 60%;
+    margin-left: 30%;
     margin-bottom: 90px;
     margin-bottom: 90px;
     padding-top: 400px;
@@ -491,6 +492,26 @@
 
 
 }   
+
+
+.readthree {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    /*
+    display: flex;
+	flex-wrap: wrap;
+*/
+    /*	height: 160px;*/
+    max-width: 50%;
+    margin-left: 30%;
+    margin-bottom: 60px;
+    position: relative;
+
+
+}
+
+
     .display1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;

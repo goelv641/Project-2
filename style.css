@@ -526,10 +526,137 @@
     -webkit-text-stroke-color: black;
 
     margin-left: 10%;
-
+    }
 
     /*    WEBKIT CREDIT
     https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+.box1 {
+        background-color: #FF008A;
+
+        position: absolute;
+        margin-left: 42%;
+        margin-top: 67px;
+
+        width: 200px;
+        height: 250px;
+    }
+
+
+    .box4 {
+        background-color: #FF008A;
+
+        position: absolute;
+        margin-left: 20%;
+        margin-top: -50px;
+
+        width: 380px;
+        height: 516px;
+    }
+
+
+    .box5 {
+
+        background-color: #FAF7F0;
+        border-color: #FF008A;
+        border: 25px;
+        outline: 14px solid #9EFF86;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        width: 30%;
+        height: 516px;
+
+    }
+
+
+    .line {
+        background-color: #FF008A;
+        position: absolute;
+        margin-left: 10%;
+        width: 5px;
+        height: 200vh;
+
+    }
+
+    .lineh {
+        background-color: #FF008A;
+
+        position: absolute;
+        margin-top: 500px;
+
+        width: 40%;
+        height: 5px;
+        /*    float: right;*/
+
+    }
+
+
+    .display1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 800;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        position: relative;
+        max-width: 80%;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin-left: 10%;
+        /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+    }
+
+    .display2 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 800;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        position: relative;
+        max-width: 80%;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+ margin-left: 5%;
+
+
+        /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+
+    }
+
+
+    .display3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 800;
+        /* padding-top: 500px;*/
+        /* padding-bottom:150px;*/
+        position: absolute;
+        transform: rotate(90deg);
+       max-width: 100ch;
+       
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #FF008A;
+
+        margin-left: 10%;
+
+
+        /*    WEBKIT CREDIT
+    https://stackoverflow.com/questions/30050556/how-to-make-a-text-stroke-with-transparent-text*/
+
+
+    }
+
+
+
 
 
 }

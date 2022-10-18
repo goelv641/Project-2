@@ -479,7 +479,7 @@
         background-color: #FAF7F0;
         border-color: #FF008A;
         border: 25px;
-        outline: 14px solid #9EFF86;
+        outline: 14px solid #FF008A;
         position: absolute;
         margin-left: 30%;
         margin-top: 50px;
@@ -495,7 +495,7 @@
         position: absolute;
         margin-left: 10%;
         width: 5px;
-        height: 200vh;
+        height: 80vh;
 
     }
 
@@ -510,6 +510,31 @@
         /*    float: right;*/
 
     }
+    
+    .lineh2 {
+    background-color: #FF008A;
+
+    position: absolute;
+ 
+
+    width: 70%;
+    height: 3px;
+    /*    float: right;*/
+
+}
+
+.lineh3 {
+    background-color: #FF008A;
+
+    position: absolute;
+    margin-top: 10px;
+  
+
+    width: 70%;
+    height: 3px;
+    /*    float: right;*/
+
+}
 
 
     .display1 {
@@ -581,14 +606,11 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 40px;
+   
     position: absolute;
 
-
-
-
-    max-width: 70%;
+    max-width: 80%;
     color: #FF008A;
 
 

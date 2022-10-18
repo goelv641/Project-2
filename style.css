@@ -574,6 +574,32 @@
 
 
     }
+    
+    
+    .display4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: absolute;
+
+
+
+
+    max-width: 70%;
+    color: #FF008A;
+
+
+    margin-left: 5%;
+
+
+
+
+}
+
+
 
 
 

@@ -1,6 +1,5 @@
 .author {
     font-family: 'Montserrat', sans-serif;
-
     font-size: 20px;
     line-height: 15px;
     line-height: 77%;
@@ -411,7 +410,7 @@
 
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .read {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
@@ -749,7 +748,7 @@
 
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .FUCK {
 
         font-family: 'Montserrat', sans-serif;
@@ -780,7 +779,7 @@
     --sub-heading: calc(var(--body-copy) * 1.5);
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     :root {
         --body-copy: 20px;
         --page-spacing: 48px;
@@ -813,7 +812,7 @@ header {
     gap: calc(var(--page-spacing) * 2);
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -821,9 +820,17 @@ header {
 }
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     header {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+/* PRINT */
+
+@media print and (width: 400px) {
+	.FUCK {
+		color: #ffd36d;
+	}
 }

@@ -871,7 +871,7 @@ header {
 }
 
 .box1{
-    display: none;
+ display: none;
 }
 
 .box2{
@@ -895,10 +895,9 @@ header {
     width: 31%;
     text-align: left;
     padding: auto;
-    margin-top: 20px;
+    margin-top: auto;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: inline-start;
 }
 
 .readtwo {
@@ -911,7 +910,6 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: left;
 }
 
 .readleft {
@@ -924,7 +922,6 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: right;
 }
 
 .readthree {
@@ -937,7 +934,6 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: right;
 }
 
 .readleft2 {
@@ -947,10 +943,9 @@ header {
     width: 31%;
     text-align: left;
     padding: auto;
-    margin-top: 20px;
+    margin-top: -400px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: right;
 }
 
 
@@ -961,7 +956,6 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -978,7 +972,6 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -994,7 +987,6 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -1012,13 +1004,13 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20%;
     -webkit-text-stroke-color: #FF008A;
+    color:#FF008A;
 }
 .display5 {
     font-family: 'Montserrat', sans-serif;
@@ -1027,7 +1019,6 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -1043,7 +1034,6 @@ header {
     font-weight: 50;
     text-transform: capitalize;
     max-width: 20%;
-    color:#FF008A;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -1051,10 +1041,12 @@ header {
     margin-left: 20%;
     -webkit-text-stroke-color: #FF008A;
 }
-
-.credit {
-    padding-top: 500px;
-    float: inline-end;
+.credit{
+  display: none;
 }
+
+a[href="#top"] {
+    display:none;
+  }
 
 }

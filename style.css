@@ -870,6 +870,12 @@ header {
 .box3{
     color: transparent;
 }
+.box4{
+    color: transparent;
+}
+.box5{
+    color: transparent;
+}
 
 .read {
     font-family: 'Montserrat', sans-serif;
@@ -881,7 +887,20 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: none;
+    float: inline-start;
+}
+
+.readtwo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: right;
 }
 
 .readleft {
@@ -894,7 +913,20 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
-    float: none;
+    float: right;
+}
+
+.readthree {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: right;
 }
 
 .readleft2 {
@@ -910,31 +942,6 @@ header {
     float: none;
 }
 
-.readthree {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    width: 31%;
-    text-align: left;
-    padding: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    float: none;
-}
-
-.readtwo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    width: 31%;
-    text-align: left;
-    padding: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    float: none;
-}
 
 .display1 {
     font-family: 'Montserrat', sans-serif;
@@ -942,7 +949,7 @@ header {
     line-height: 24px;
     font-weight: 50;
     text-transform: capitalize;
-    max-width: 31%;
+    max-width: 20%;
     color:#FF008A;
     position: relative;
     padding: 10px;

@@ -757,7 +757,6 @@
     :root {
         --body-copy: 20px;
         --page-spacing: 48px;
-
         --main-heading: calc(var(--body-copy) * 4);
         --sub-heading: calc(var(--body-copy) * 2);
     }
@@ -805,6 +804,13 @@ header {
 
 @media print and (max-width: 563px) {
 
+    :root {
+        --body-copy: 12px;
+        --page-spacing: 30px;
+        --main-heading: calc(var(--body-copy) * 4);
+        --sub-heading: calc(var(--body-copy) * 2);
+    }
+
     header {
         flex-direction: row;
         justify-content: flex-start;
@@ -819,10 +825,11 @@ header {
     }
 
     .line2 {
-        background-color: black;
+        color: black;
         position: absolute;
         width: 95%;
-        height: 5px;
+        height: 3px;
+        padding-top: 20px;
     }
 
     .FUCK {
@@ -842,13 +849,182 @@ header {
     }
 
 .line3 {
-    background-color: black;
+    color: black;
     position: absolute;
-    width: 95%;
-    height: 5px;
-    margin-bottom: 50px;
+    width: 80%;
+    height: 3px;
 }
 
+.spaceyspace{
+    line-height: 20px;
+}
 
+.box1{
+    color: transparent;
+}
+
+.box2{
+    color: transparent;
+}
+
+.box3{
+    color: transparent;
+}
+
+.read {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: none;
+}
+
+.readleft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: none;
+}
+
+.readleft2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: none;
+}
+
+.readthree {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: none;
+}
+
+.readtwo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 31%;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    float: none;
+}
+
+.display1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.display2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.display3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    transform: rotate(360deg);
+    background-color: #FF008A;
+}
+
+.display4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+.display5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.displayg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 50;
+    text-transform: capitalize;
+    max-width: 31%;
+    color:#FF008A;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
 
 }

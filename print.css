@@ -44,7 +44,9 @@ display: none;
     .lineh3 {
         display: none;
     }
-
+    .lineh {
+        display: none;
+    }
     .FUCK {
         font-family: 'Montserrat', sans-serif;
         font-size: 200px;
